@@ -1,6 +1,9 @@
 function printObject(obj) {
-    // your code here...
-  }
+    for (let key in obj)  {
+        let value = obj[key];
+        console.log(key + " - " + value);
+    }
+  };
 
   let bootcamp = {
     name: "App Academy",
